@@ -1,0 +1,6 @@
+Bug ID,Module,Description,Severity,Status
+BUG_001,Cart,Adding more than 10 items of the same product causes a 500 Internal Server Error instead of validation message.,High,Open
+BUG_002,Product Search,Sorting by 'Price: Low to High' occasionally displays out-of-stock items at the top even if the filter is set to hide them.,Medium,In Progress
+BUG_003,Login,"'Forgot Password' link overlaps with the 'Login' button on mobile screen resolutions (320px width).",Low,Open
+BUG_004,Checkout,"Discount code 'WELCOME10' is applying a 100% discount instead of 10% on the final total.",Critical,Resolved
+BUG_005,Product Search,Search input field allows execution of basic HTML tags (possible XSS vulnerability).,Critical,Open
